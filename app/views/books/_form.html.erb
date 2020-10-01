@@ -24,4 +24,9 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+  
+  <!--f.sabmitがcreate bookやupdate bookに勝手に切り替わるのは、bookの中が空か入っているかをrubyが勝手に判断してくれるから。
+  また、コントローラーで@book = boo.newを@game = game.newに記述を変えると、create gameやupdate gameになる。-->
+  
+  
 <% end %>
